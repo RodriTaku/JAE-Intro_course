@@ -22,13 +22,13 @@ function [dY] = two_link_robot_vec_field(T, Y, F, param)
 %
 %     Example (using ode45):
 %       param = [1,1,1,1,1];
-%       F = {@(t,y) 0; @(t,y) cos(t)}
+%       F = {@(t,y) 0; @(t,y) cos(t)/10}
 %       t0 = 0;
 %       t1 = 100;
 %       nsteps = 1000;
 %       q0 = [0; 0];
 %       v0 = [0; 0];
-%       [T,Y] = ode45(@(T,Y) two_link_robot_vec(T,Y,F,param), linspace(t0,t1,nsteps+1), [q0; v0]);
+%       [T,Y] = ode45(@(T,Y) two_link_robot_vec_field(T,Y,F,param), linspace(t0,t1,nsteps+1), [q0; v0]);
 
     m1 = param(1);
     m2 = param(2);

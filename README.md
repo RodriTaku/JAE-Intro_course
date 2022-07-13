@@ -1,6 +1,6 @@
 # JAE-Intro_course
 
-This repository contains auxiliary material for the JAE-Intro '19 mini-course "Métodos geométricos para robótica / Geometric methods for robotics" (https://www.icmat.es/events/JAESchool/programme2019).
+This repository contains auxiliary material for the JAE-Intro '19 mini-course "Métodos geométricos para robótica / Geometric methods for robotics" (https://www.icmat.es/events/jae-school/programme2019/).
 
 In the folder "Group_functions" you will find a set of functions to compute some of the most common operations necessary in order to work with the Lie groups SO(3) and SE(3).
 
